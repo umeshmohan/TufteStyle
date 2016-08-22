@@ -15,7 +15,12 @@ function [x_axis_handle, y_axis_handle] = TufteStyle(axes_handle_original)
 %   Author: Umesh Mohan
 %   email: umesh at heterorrhina dot in
 %   Date: 2016/07/21 20:00:00
-%   Revision: 0.1.1
+%   Last Update: 2016/08/22
+%   Revision: 0.1.3
+
+%   Revision history:
+%   0.1.1: First complete working version
+%   0.1.3: Added options to preserve original axis labels and tick labels (Contributed by Dinesh (https://github.com/AbstractGeek))
 
 figure_handle = get(axes_handle_original, 'Parent');
 original_axes_position = get(axes_handle_original,'Position');
